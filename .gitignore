@@ -1,0 +1,7 @@
+pkg
+target
+dist
+
+node_modules
+.cache
+wasm-pack.log

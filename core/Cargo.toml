@@ -1,0 +1,11 @@
+[package]
+name = "chessire-core"
+version = "0.1.0"
+authors = ["Simon Meskens <meskens.simon@gmail.com>", "Michael Lamparski <diagonaldevice@gmail.com>"]
+edition = "2018"
+
+[lib]
+path = "core.rs"
+
+[dependencies]
+chess = "3.1.1"
