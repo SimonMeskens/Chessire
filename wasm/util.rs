@@ -13,7 +13,3 @@ pub fn random() -> f64 {
 pub fn log(message: &str) {
     web_sys::console::log_1(&JsValue::from(message));
 }
-
-pub fn display_fen(fen: String) {
-    let board = fen.parse::<chess::Board>().unwrap();
-}
